@@ -1,10 +1,28 @@
-#links {
+#banner {
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 225px;
+    margin-left: 300px;
+    position: absolute;
+    top: 11px;
+}
+
+#name {
+    color: white;
+    text-align: center;
+    line-height: 36px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#links,
+ul  {
     list-style-type: none;
-    margin: 0;
+    margin-right: 145px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    }
+}
 
 li {
     float:right;
@@ -12,13 +30,66 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #e7e7e7;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+.container {
+    background-color: #e7e7e7;
+}
+
+.mainbox {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 25px 300px 30px 300px;
+    display: inline-block;
+}
+
+header {
+    float: left;
+    color: #4aaaa5;
+    border-bottom-color: #e7e7e7;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    text-align: left;
+    font-size: 32px;
+    padding: 20px;
+    width: 850px;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
 #bio-pic {
+    clear: both;
     height: 30%;
     width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
 }
+
+ p {
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20px;
+    color: #837c79;
+    margin-right: 30px;
+    margin-top: 20px;
+ }
+
+ .footer {
+     background-color:#666666;
+     border-top-color: #4aaaa5;
+     border-top-style: solid;
+     border-top-width: 2px;
+     text-align: center;
+     font-size: 10px;
+     padding: 20px;
+     color: white;
+
+ }
