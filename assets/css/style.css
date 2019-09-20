@@ -38,6 +38,8 @@ li a {
 
 .container {
     background-color: #e7e7e7;
+    width: 100%;
+    height: 610px;
 }
 
 .mainbox {
@@ -55,9 +57,10 @@ header {
     border-bottom-width: 2px;
     text-align: left;
     font-size: 32px;
+    font-weight: bold;
     padding: 20px;
     width: 850px;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 50px;
     margin-bottom: 15px;
 }
@@ -91,5 +94,35 @@ header {
      font-size: 10px;
      padding: 20px;
      color: white;
+ }
 
+ .inputbox {
+     margin-left: 20px;
+     width: 80%;
+     margin-top: 10px;
+ }
+
+ .inputmessage {
+    margin-left: 20px;
+    width: 80%;
+    margin-top: 20px;
+ }
+ .submitbutton {
+     margin-left: 20px;
+     background-color: #4aaaa5;
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-bottom: 5px;
+ }
+
+ .form-control {
+     width: 95%;
+     height: 25px;
+ }
+ .form-control1 {
+     width: 95%;
+     height: 200px;
  }
