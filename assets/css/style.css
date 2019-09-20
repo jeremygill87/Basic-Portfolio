@@ -37,9 +37,10 @@ li a {
 }
 
 .container {
-    background-color: #e7e7e7;
+    background-image: url(../images/prism.png);
+    background-size: cover;
     width: 100%;
-    height: 610px;
+    text-align: center;
 }
 
 .mainbox {
@@ -59,7 +60,7 @@ header {
     font-size: 32px;
     font-weight: bold;
     padding: 20px;
-    width: 850px;
+    width: 90%;
     margin-left: 15px;
     margin-right: 50px;
     margin-bottom: 15px;
@@ -72,9 +73,11 @@ header {
     float: left;
     margin-top: 20px;
     margin-left: 20px;
+    text-align:left;
 }
 
  p {
+    text-align:left;
     line-height: 32px;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -97,17 +100,21 @@ header {
  }
 
  .inputbox {
+     text-align: left;
      margin-left: 20px;
      width: 80%;
      margin-top: 10px;
  }
 
  .inputmessage {
+    text-align: left;
     margin-left: 20px;
     width: 80%;
     margin-top: 20px;
  }
  .submitbutton {
+     text-align: left;
+     float: left;
      margin-left: 20px;
      background-color: #4aaaa5;
      color: white;
@@ -119,10 +126,33 @@ header {
  }
 
  .form-control {
+     text-align: left;
      width: 95%;
      height: 25px;
  }
  .form-control1 {
+     text-align:left;
      width: 95%;
      height: 200px;
  }
+.image {
+    float: left;
+    margin: 20px;
+    clear: right;
+}
+img {
+    width: 175px;
+    height: 125px;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    bottom: 50px;
+}
